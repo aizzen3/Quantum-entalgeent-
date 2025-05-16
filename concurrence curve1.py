@@ -12,9 +12,9 @@ data_dict = {
 
 data = pd.DataFrame(data_dict)
 
-# Identifying intersection points
+# Identifying intersection points (nothing)
 intersections = []
-columns = ["X=0", "45°", "90°", "135°"]
+columns = ["X=0", "45°", "9°", "135°"]
 
 for i, col1 in enumerate(columns):
     for col2 in columns[i + 1:]:
